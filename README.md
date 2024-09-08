@@ -46,3 +46,32 @@ int main() {
 
     return 0;
 }
+```
+
+## Compilation
+
+### For General Systems
+
+To compile the program on a general-purpose system using GCC, follow these steps:
+
+1. **Save the Source Code:**
+   - Ensure your source code is saved in a file named `main.c`.
+
+2. **Open a Terminal or Command Prompt:**
+   - Navigate to the directory where `main.c` is located.
+
+3. **Compile the Program:**
+   - Run the following command to compile the code:
+
+     ```sh
+     gcc -o led_control main.c
+     ```
+
+   - This command compiles `main.c` into an executable named `led_control`.
+
+4. **Run the Program:**
+   - After compilation, you can run the executable with:
+
+     ```sh
+     ./led_control
+     ```
